@@ -17,8 +17,7 @@ export function PasswordPage() {
     }
   };
   return <div className="min-h-screen w-full flex items-center justify-center bg-cover bg-center relative" style={{
-    backgroundImage: `url('https://uploadthingy.s3.us-west-1.amazonaws.com/iqRfJEthY94cmKawYb9xpJ/Screenshot_2025-11-25_at_9.19.07_PM.png')`
-  }}>
+     backgroundImage: "url('/images/background.png')",  }}>
       <div className="absolute inset-0 bg-blue-900/30"></div>
 
       <div className="relative z-10 w-full max-w-md px-6">
